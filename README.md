@@ -83,14 +83,15 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
     ```bash
     pip install pandas numpy statsmodels matplotlib
     
-3. **Execute the Scripts**:
-   
-   A.Run in-sample analysis:
+## 3. Execute the Scripts
 
-   ```bash
-    python 01_in_sample_analysis.py
+### A. Run In-Sample Analysis
 
-     B.Run out-of-sample analysis:
+```bash
+python 01_in_sample_analysis.py
+
+
+B.Run out-of-sample analysis:
    
     ```bash
     python 02_out_of_sample_analysis.py
