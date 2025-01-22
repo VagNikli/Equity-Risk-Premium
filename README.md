@@ -80,6 +80,8 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
    cd <repository_name>
 
 2. **Install Dependencies**: Ensure Python and required libraries are installed:
+    ```bash
     pip install pandas numpy statsmodels matplotlib
+    
 3.
 
