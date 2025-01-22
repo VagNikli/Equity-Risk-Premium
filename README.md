@@ -87,7 +87,7 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 
 ### A. Run In-Sample Analysis:
 
-    python 01_in_sample_analysDis.py
+    python 01_in_sample_analysis.py
 
 ### B.Run out-of-sample analysis:
 
