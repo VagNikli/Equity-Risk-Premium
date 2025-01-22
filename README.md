@@ -90,23 +90,22 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 ```bash
 python 01_in_sample_analysis.py
 
-
-B.Run out-of-sample analysis:
+### B.Run out-of-sample analysis:
    
-    ```bash
-    python 02_out_of_sample_analysis.py
+```bash
+python 02_out_of_sample_analysis.py
+
+
+### C. Execute the "kitchen sink" model:
+
+```bash
+python 03_kitchen_sink_model.py
 
    
-     C. Execute the "kitchen sink" model:
-
-     ```bash
-     python 03_kitchen_sink_model.py
-
-   
-     D. Combine forecasts:
+### D. Combine forecasts:
     
-    ```bash
-    python 04_forecast_combination.py
+```bash
+python 04_forecast_combination.py
 
 
 
