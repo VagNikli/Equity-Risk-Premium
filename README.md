@@ -83,5 +83,25 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
     ```bash
     pip install pandas numpy statsmodels matplotlib
     
-3.
+3. **Execute the Scripts**:
+   
+   **A.Run in-sample analysis**:
+    ```bash
+    python 01_in_sample_analysis.py
+    
+   **B.Run out-of-sample analysis**:
+    ```bash
+    python 02_out_of_sample_analysis.py
+
+   **C. Execute the "kitchen sink" model**:
+    ```bash
+    python 03_kitchen_sink_model.py
+    
+   **D. Combine forecasts**:
+    ```bash
+    python 04_forecast_combination.py
+
+
+
+
 
