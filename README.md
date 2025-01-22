@@ -95,23 +95,18 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 ### D. Combine forecasts:
 
 
-
-
 ```bash
 python 01_in_sample_analysDis.py
-
 
    
 ```bash
 python 02_out_of_sample_analysis.py
 
 
-
 ```bash
 python 03_kitchen_sink_model.py
 
    
-    
 ```bash
 python 04_forecast_combination.py
 
