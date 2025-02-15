@@ -68,7 +68,9 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 
 ### 4. Forecast Combination
 - Combined forecasts using mean, median, and DMSPE methods:
- $hat{r}_{c,t+1}$ = $\sum_{i=1}^N \omega_{i,t} \hat{r}_{i,t+1}$
+  <p align="center">
+  $hat{r}_{c,t+1}$ = $\sum_{i=1}^N \omega_{i,t} \hat{r}_{i,t+1}$
+  </p>
 - Evaluated the improvement in predictive accuracy from combined forecasts.
 
 ## Results
