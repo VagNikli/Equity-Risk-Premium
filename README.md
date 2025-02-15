@@ -58,19 +58,19 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 - Generated forecasts with an expanding window.
 - Compared against the historical average benchmark:
  $\bar{r}_{t+1} = \frac{1}{t} \sum_{j=1}^t r_j$
-- Evaluated predictive performance using out-of-sample \(R^2\).
+- Evaluated predictive performance using out-of-sample $R^2$.
 
 ### 3. "Kitchen Sink" Regression
 - Assessed the combined effect of all predictors in a single model.
 
 ### 4. Forecast Combination
 - Combined forecasts using mean, median, and DMSPE methods:
- $\hat{r}_{c,t+1} = \sum_{i=1}^N \omega_{i,t} \hat{r}_{i,t+1}$
+ $ \hat{r}_{c,t+1} = \sum_{i=1}^N \omega_{i,t} \hat{r}_{i,t+1} $
 - Evaluated the improvement in predictive accuracy from combined forecasts.
 
 ## Results
 
-- Detailed results, including \(R^2\) values, t-statistics, and forecast performance metrics, are provided in the output of each script.
+- Detailed results, including $R^2$ values, t-statistics, and forecast performance metrics, are provided in the output of each script.
 
 ## How to Run
 
