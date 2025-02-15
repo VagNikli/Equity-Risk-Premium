@@ -13,13 +13,13 @@ The objective is to determine whether financial predictor variables can forecast
 ## Project Structure
 
 - **`01_in_sample_analysis.py`**: Performs in-sample regression analysis for each predictor variable. Includes:
-  - Testing the null hypothesis \(H_0: \beta_i = 0\) against \(H_A: \beta_i > 0\).
+  - Testing the null hypothesis $H_0: \beta_i = 0$ against $H_A: \beta_i > 0$.
   - Calculating heteroscedasticity-robust t-statistics and p-values.
-  - Reporting adjusted \(R^2\).
+  - Reporting adjusted $R^2$.
 
 - **`02_out_of_sample_analysis.py`**: Conducts out-of-sample forecasting with an expanding window. Features:
   - Dividing data into training, holdout, and test sets.
-  - Calculating out-of-sample \(R^2\) to compare forecasts against a historical average benchmark.
+  - Calculating out-of-sample $R^2$ to compare forecasts against a historical average benchmark.
 
 - **`03_kitchen_sink_model.py`**: Implements a "kitchen sink" regression that includes all predictor variables to assess their combined forecasting power.
 
@@ -51,7 +51,7 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 
 ### 1. In-Sample Analysis
 - Regression for each predictor variable:
-  \( r_{t+1} = \alpha_i + \beta_i x_{i,t} + \epsilon_{t+1} \)
+  $r_{t+1} = \alpha_i + \beta_i x_{i,t} + \epsilon_{t+1}$
 - Tested the predictive power of each variable.
 
 ### 2. Out-of-Sample Forecasting
@@ -65,7 +65,7 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 
 ### 4. Forecast Combination
 - Combined forecasts using mean, median, and DMSPE methods:
- $ \hat{r}_{c,t+1} = \sum_{i=1}^N \omega_{i,t} \hat{r}_{i,t+1} $
+ $\hat{r}_{c,t+1} = \sum_{i=1}^N \omega_{i,t} \hat{r}_{i,t+1}$
 - Evaluated the improvement in predictive accuracy from combined forecasts.
 
 ## Results
