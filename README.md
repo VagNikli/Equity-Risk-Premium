@@ -51,7 +51,9 @@ The dataset, `predictor_data.csv`, contains quarterly financial indicators based
 
 ### 1. In-Sample Analysis
 - Regression for each predictor variable:
-  $r_{t+1} = \alpha_i + \beta_i x_{i,t} + \epsilon_{t+1}$
+- 
+  $\bar{r}_{t+1} = \frac{1}{t} \sum_{j=1}^{t} r_j$
+  
 - Tested the predictive power of each variable.
 
 ### 2. Out-of-Sample Forecasting
